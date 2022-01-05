@@ -5,18 +5,21 @@ body{
     font-family: 'Noto Serif', serif;
     font-family: 'Noto Serif Display', serif;
     font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(40, 47, 53);
 }
 
 h1{
-    font-size: 40px;
+    font-size: 60px;
     font-weight: 700;
+    color:white;
 }
 p{
     font-size: 24px;
+    color:white;
 }
 .vertical-line{
     border-left:  4px solid salmon;
-    height: 120px;
+    height: 200px;
     padding: 0px 15px;
     
 }
@@ -27,6 +30,7 @@ p{
 
 .faxible-container{
     display:flex;
+    margin-top: 52px;
 }
 .half-width{
     width:50%;
@@ -35,8 +39,8 @@ p{
 }
 .half-width img{
     
-    width:65%;
-    padding-left: 150px;
+    width:80%;
+    padding-left: 50px;
 }
 
 .anchore-button{
@@ -48,4 +52,47 @@ p{
     padding: 12px 35px;
     border-radius: 4px;
         
+}
+
+
+#second-h2{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.flex-container-2{
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+
+
+}
+
+.flex-container-2 img{
+    width: 30%;
+}
+
+#flex-1{
+
+    background-image: linear-gradient(salmon,tomato);    
+    border-radius: 10px;
+}
+#flex-2{
+
+    background-image: linear-gradient(salmon,tomato);    
+    border-radius: 10px;
+}
+#flex-3{
+
+    background-image: linear-gradient(salmon,tomato);    
+    border-radius: 10px;
+}
+.flex-sort{
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 30px;
 }
